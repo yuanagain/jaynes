@@ -22,6 +22,6 @@ $ cd jaynes && npm install
 ```
 $ npm run dev
 ```
-4. Go to localhost:30004/notes/template
+4. Go to localhost:3004/notes/template
 
 5. Feel free to create branches
