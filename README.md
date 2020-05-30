@@ -3,7 +3,7 @@
 ### Editing in-browser
 1. Go here: https://github.com/yuanagain/jaynes/tree/master/src/pages/notes
 
-2. Create an `.mdx` or `.md` file via the "Create new fule" button, i.e. `solutions123.mdx`.
+2. Create an `.mdx` or `.md` file via the "Create new file" button, i.e. `solutions123.mdx`.
 
 3. Write the file in any combination of Markdown and LaTeX.
 
