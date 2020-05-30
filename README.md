@@ -25,3 +25,7 @@ $ npm run dev
 4. Go to localhost:3004/notes/template
 
 5. Feel free to create branches
+
+## Other notes
+1. Each branch will additionally produce its own deployment: https://jaynes-git-sat4.yuanagain.now.sh/notes/ch2
+2. You can examine deployment progress by looking at the commits, where Vercel will comment.
