@@ -1,0 +1,11 @@
+node_modules
+.cache
+**.DS_Store
+**~
+dist
+.env
+.next
+old-pages
+old-index
+index.html
+**.vscode

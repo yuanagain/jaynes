@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<g filter="url(#filter0_d)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M312.236 219.288C357.8 198.694 399 180.071 399 127.999C399 24.6414 325.961 3 222.839 3C133.369 3 10 65.1462 10 255.116C10 349.145 100.806 487.18 194.843 511.329C208.219 514.765 217.925 501.142 213.807 487.96C152.443 291.515 238.114 252.792 312.236 219.288ZM186.518 196.92C242.664 196.92 350.587 183.751 359.5 123.531C370.139 51.6408 282.634 33.5392 216 40.0308C154.411 46.0308 116.374 87.5308 108.5 136.531C104.97 158.5 115.5 196.92 186.518 196.92Z" fill="#00C6A2"/>
+</g>
+<g filter="url(#filter1_d)">
+<circle cx="354.5" cy="367.5" r="82.5" fill="#00C6A2"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="6" y="3" width="397" height="516.868" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_d" x="268" y="285" width="173" height="173" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<clipPath id="clip0">
+<rect width="512" height="512" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,85 @@
+{
+  "name": "jaynesprobability",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "repository": "https://gitlab.com/yuanagain/jaynessolutions",
+  "author": "Yuan Wang",
+  "license": "None",
+  "private": true,
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "dev": "next -p 3004",
+    "build": "next build",
+    "start": "next start",
+    "tsc": "tsc"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run tsc && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "prettier --write",
+      "eslint"
+    ]
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@mdx-js/loader": "^1.6.1",
+    "@next/mdx": "^9.3.6",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "emotion-theming": "^10.0.27",
+    "extract-files": "^8.1.0",
+    "facepaint": "^1.2.1",
+    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "just-compare": "^1.3.0",
+    "just-diff": "^3.0.2",
+    "just-diff-apply": "^3.0.0",
+    "less": "^3.11.1",
+    "next": "^9.4.2",
+    "next-fonts": "^1.1.0",
+    "next-images": "^1.4.0",
+    "next-offline": "^5.0.2",
+    "prism-react-renderer": "^1.1.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.12.1",
+    "react": "16.13.1",
+    "react-activity": "^1.2.2",
+    "react-dom": "16.13.1",
+    "react-spring": "^8.0.27",
+    "react-window": "^1.8.5",
+    "rehype-katex": "^3.0.0",
+    "remark-emoji": "^2.1.0",
+    "remark-images": "^2.0.0",
+    "remark-math": "^2.0.1",
+    "route-parser": "^0.0.5",
+    "ts-loader": "^7.0.3"
+  },
+  "devDependencies": {
+    "@types/extract-files": "^3.1.0",
+    "@types/just-debounce-it": "^1.1.0",
+    "@types/node": "^13.13.5",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "@zeit/next-less": "^1.0.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.2",
+    "next-compose-plugins": "^2.2.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
+  }
+}
